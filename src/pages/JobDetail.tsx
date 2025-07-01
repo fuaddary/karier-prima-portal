@@ -15,7 +15,7 @@ const JobDetail = () => {
   const job = {
     id: 1,
     title: "Senior Frontend Developer",
-    company: "Tech Innovation",
+    companyName: "Tech Innovation",
     location: "Jakarta",
     salary: "15-25 Juta",
     type: "Full-time",
@@ -121,7 +121,7 @@ Sebagai Senior Frontend Developer, Anda akan bekerja dalam lingkungan yang kolab
                     </div>
                     <div>
                       <h1 className="text-2xl font-bold text-gray-900 mb-2">{job.title}</h1>
-                      <p className="text-lg text-blue-600 font-medium mb-3">{job.company.name}</p>
+                      <p className="text-lg text-blue-600 font-medium mb-3">{job.companyName}</p>
                       
                       <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
                         <div className="flex items-center">
